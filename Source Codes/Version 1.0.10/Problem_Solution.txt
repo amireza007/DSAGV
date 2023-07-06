@@ -1,0 +1,185 @@
+
+
+Status of the system at Time:1 
+Jobs to be carried.
+
+           C-ID,	Source		Destination	Ready Time
+--------------------------------------------------------------
+         C-BS-1		W/P 1		Block 2		100
+     C-DA-2-0-1		W/P 2		Block 2		100
+         C-BS-2		W/P 1		Block 2		220
+     C-DA-2-0-2		W/P 2		Block 2		220
+         C-BS-3		W/P 1		Block 2		340
+         C-BS-4		W/P 1		Block 2		460
+         C-BS-5		W/P 1		Block 2		580
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+1	AGV-1	W/P 1		0	3	0	Waiting	0	1	Block 2		0	0	0
+
+Jobs for Vehicle 1
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-DA-2-0-1	100	120	120	100	W/P 2		Block 2
+C-DA-2-0-2	220	271	271	240	W/P 2		Block 2
+C-BS-4	460	416	486	486	W/P 1		Block 2
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+2	AGV-2	W/P 1		25	4	0	Going	0	0	W/P 2		14	0	15
+
+Jobs for Vehicle 2
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-BS-1	100	26	100	100	W/P 1		Block 2
+C-BS-2	220	233	233	220	W/P 1		Block 2
+C-BS-3	340	366	366	353	W/P 1		Block 2
+C-BS-5	580	499	606	606	W/P 1		Block 2
+
+Status of the system at Time:271 
+Jobs to be carried.
+
+           C-ID,	Source		Destination	Ready Time
+--------------------------------------------------------------
+         C-BS-3		W/P 1		Block 2		340
+     C-DA-2-2-1		W/P 2		Block 2		391
+         C-BS-4		W/P 1		Block 2		460
+     C-DA-2-2-2		W/P 2		Block 2		511
+         C-BS-5		W/P 1		Block 2		580
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+1	AGV-1	Block 2		103	2	120	Going	1	149	W/P 2		14	0	5
+
+Jobs for Vehicle 1
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-DA-2-2-1	391	422	422	391	W/P 2		Block 2
+C-DA-2-2-2	511	573	573	542	W/P 2		Block 2
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+2	AGV-2	Block 2		53	3	193	Going	1	74	W/P 1		1	12	10
+
+Jobs for Vehicle 2
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-BS-3	340	366	366	353	W/P 1		Block 2
+C-BS-4	460	499	499	486	W/P 1		Block 2
+C-BS-5	580	632	632	619	W/P 1		Block 2
+
+Status of the system at Time:573 
+Jobs to be carried.
+
+           C-ID,	Source		Destination	Ready Time
+--------------------------------------------------------------
+         C-BS-5		W/P 1		Block 2		580
+     C-DA-2-4-1		W/P 2		Block 2		693
+     C-DA-2-4-2		W/P 2		Block 2		813
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+1	AGV-1	Block 2		103	1	418	Going	1	149	W/P 2		14	0	5
+
+Jobs for Vehicle 1
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-DA-2-4-2	813	724	891	891	W/P 2		Block 2
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+2	AGV-2	Block 2		17	2	491	Going	1	74	W/P 1		1	48	10
+
+Jobs for Vehicle 2
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-BS-5	580	632	632	619	W/P 1		Block 2
+C-DA-2-4-1	693	771	771	693	W/P 2		Block 2
+
+Status of the system at Time:632 
+Jobs to be carried.
+
+           C-ID,	Source		Destination	Ready Time
+--------------------------------------------------------------
+     C-DA-2-4-1		W/P 2		Block 2		693
+     C-DA-1-5-1		W/P 1		Block 2		752
+     C-DA-2-4-2		W/P 2		Block 2		813
+     C-DA-1-5-2		W/P 1		Block 2		872
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+1	AGV-1	Block 2		44	2	477	Going	1	149	W/P 2		1	21	10
+
+Jobs for Vehicle 1
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-DA-2-4-1	693	724	724	693	W/P 2		Block 2
+C-DA-2-4-2	813	875	875	844	W/P 2		Block 2
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+2	AGV-2	Block 2		91	2	548	Going	1	74	W/P 1		16	0	6
+
+Jobs for Vehicle 2
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-DA-1-5-1	752	765	765	752	W/P 1		Block 2
+C-DA-1-5-2	872	898	898	885	W/P 1		Block 2
+
+Status of the system at Time:875 
+Jobs to be carried.
+
+           C-ID,	Source		Destination	Ready Time
+--------------------------------------------------------------
+     C-DA-1-5-2		W/P 1		Block 2		872
+     C-DA-2-6-1		W/P 2		Block 2		995
+     C-DA-2-6-2		W/P 2		Block 2		1115
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+1	AGV-1	Block 2		103	1	716	Going	1	149	W/P 2		14	0	5
+
+Jobs for Vehicle 1
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-DA-2-6-2	1115	1026	1157	1157	W/P 2		Block 2
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+2	AGV-2	W/P 1		23	2	788	Going	0	74	Block 2		17	1	15
+
+Jobs for Vehicle 2
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-DA-1-5-2	872	898	898	885	W/P 1		Block 2
+C-DA-2-6-1	995	1037	1037	995	W/P 2		Block 2
+
+Status of the system at Time:898 
+Jobs to be carried.
+
+           C-ID,	Source		Destination	Ready Time
+--------------------------------------------------------------
+     C-DA-2-6-1		W/P 2		Block 2		995
+     C-DA-1-7-1		W/P 1		Block 2		1018
+     C-DA-2-6-2		W/P 2		Block 2		1115
+     C-DA-1-7-2		W/P 1		Block 2		1138
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+1	AGV-1	Block 2		80	2	739	Stopping	1	149	W/P 2		5	11	6
+
+Jobs for Vehicle 1
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-DA-1-7-1	1018	1020	1020	1018	W/P 1		Block 2
+C-DA-1-7-2	1138	1153	1153	1140	W/P 1		Block 2
+
+AGVNo	AGVName	SLoc		RTime	NJobs	TTime	Status	Load	WTime	PLoc		Lane	TInLane	NexLane
+-----------------------------------------------------------------------------------------------------------------------
+2	AGV-2	Block 2		91	2	810	Going	1	74	W/P 1		16	0	6
+
+Jobs for Vehicle 2
+C-ID	RTime	VTime	ATime	QTime	SPoint		DPoint
+-------------------------------------------------------------
+C-DA-2-6-1	995	1037	1037	995	W/P 2		Block 2
+C-DA-2-6-2	1115	1188	1188	1157	W/P 2		Block 2

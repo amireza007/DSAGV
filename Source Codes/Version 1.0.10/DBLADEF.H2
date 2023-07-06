@@ -1,0 +1,23 @@
+
+
+#ifndef _DBLADEF_H
+#define _DBLADEF_H
+
+
+#include "mcfdefs.h"
+
+
+#define MCF_DUAL_BLA_PARAMETERS \
+    long , \
+    MCF_node_p, \
+    MCF_node_p, \
+    MCF_flow_p
+
+#define MCF_DECLARE_DUAL_BLA_PARAMETERS \
+    long n, \
+    MCF_node_p nodes, \
+    MCF_node_p stop_nodes, \
+    MCF_flow_p delta
+
+
+#endif

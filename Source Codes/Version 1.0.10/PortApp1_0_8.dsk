@@ -1,0 +1,431 @@
+[Closed Files]
+File_0=SourceModule,'C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\MCFLIGHT1_0_6.Cpp',0,1,1,1,2,0,0
+File_1=SourceModule,'C:\PROGRAM FILES\BORLAND\CBUILDER5\INCLUDE\VCL\sysset.h',0,1,19,1,36,0,0
+File_2=SourceModule,'C:\PROGRAM FILES\BORLAND\CBUILDER5\INCLUDE\VCL\dstring.h',0,1,51,1,68,0,0
+File_3=SourceModule,'C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\READMIN.Cpp',0,1,88,9,101,0,0
+File_4=SourceModule,'C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\READMIN.C',0,1,88,13,111,0,0
+File_5=SourceModule,'C:\PROGRAM FILES\BORLAND\CBUILDER5\INCLUDE\VCL\forms.hpp',0,1,920,1,932,0,0
+File_6=SourceModule,'C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Main1_0_5.cpp',0,1,1,15,16,1,0
+File_7=SourceModule,'c:\program files\borland\cbuilder5\include\vcl\Office_2K.h',0,1,3168,1,3173,0,0
+File_8=SourceModule,'C:\PROGRAM FILES\BORLAND\CBUILDER5\INCLUDE\algorith.h',0,1,1,1,1,0,0
+
+[Modules]
+Module0=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PortBenchmark.cpp
+Module1=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\MCFModel1_3.cpp
+Module2=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Global.h
+Module3=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Global_ext.h
+Module4=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\HCDVRP.cpp
+Module5=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PortLayout.cpp
+Module6=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Dummy.cpp
+Module7=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PSTART.cpp
+Count=8
+EditWindowCount=1
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PortBenchmark.cpp]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\MCFModel1_3.cpp]
+ModuleType=SourceModule
+FormState=3
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Global.h]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Global_ext.h]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\HCDVRP.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PortLayout.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Dummy.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PSTART.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Borland\CBuilder5\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PortApp1_0_8.bpr]
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PortContainer.cpp]
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PortAGV.cpp]
+FormState=0
+FormOnTop=0
+
+[EditWindow0]
+ViewCount=9
+CurrentView=1
+View0=0
+View1=1
+View2=2
+View3=3
+View4=4
+View5=5
+View6=6
+View7=7
+View8=8
+CodeExplorer=CodeExplorer@EditWindow0
+MessageView=MessageView@EditWindow0
+ClassHierarchy=ClassHierarchy@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=1
+Top=99
+Width=1279
+Height=703
+MaxLeft=-4
+MaxTop=118
+ClientWidth=1271
+ClientHeight=671
+LeftPanelSize=92
+LeftPanelClients=DockSite0
+LeftPanelData=0000040000000000000000000000000000000000000000000001000000000000000009000000446F636B5369746530FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=0
+
+[View0]
+Module=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\MCFModel1_3.cpp
+CursorX=71
+CursorY=5
+TopLine=1
+LeftCol=1
+
+[View1]
+Module=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PortBenchmark.cpp
+CursorX=74
+CursorY=11
+TopLine=1
+LeftCol=1
+
+[View2]
+Module=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PSTART.cpp
+CursorX=23
+CursorY=57
+TopLine=47
+LeftCol=1
+
+[View3]
+Module=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\HCDVRP.cpp
+CursorX=80
+CursorY=924
+TopLine=910
+LeftCol=1
+
+[View4]
+Module=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\PortLayout.cpp
+CursorX=23
+CursorY=50
+TopLine=40
+LeftCol=1
+
+[View5]
+Module=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\MCFModel1_3.h
+CursorX=69
+CursorY=366
+TopLine=343
+LeftCol=1
+
+[View6]
+Module=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Dummy.cpp
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View7]
+Module=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Global_ext.h
+CursorX=1
+CursorY=158
+TopLine=130
+LeftCol=1
+
+[View8]
+Module=C:\Documents and Settings\hrashi\My Documents\My Research\My Software\Version 1.0.8\Global.h
+CursorX=1
+CursorY=57
+TopLine=47
+LeftCol=1
+
+[Watches]
+Count=14
+Watch0='Vehicle_Buff[0].Last_Completed_Time',256,0,18,1,0
+Watch1='Vehicle_Buff[1].Last_Completed_Time',256,0,18,1,0
+Watch2='Vehicle_Buff[1].Last_Completed_Temp',256,0,18,1,0
+Watch3='Vehicle_Buff[0].Last_Completed_Temp',256,0,18,1,0
+Watch4='Crane_Buff  [0].Last_Completed_Time',256,0,18,1,0
+Watch5='Crane_Buff  [0].Last_Completed_Temp',256,0,18,1,0
+Watch6='Crane_Buff  [1].Last_Completed_Time',256,0,18,1,0
+Watch7='Crane_Buff  [1].Last_Completed_Temp',256,0,18,1,0
+Watch8='Crane_Buff  [1].Number_Of_Jobs',256,0,18,1,0
+Watch9='Crane_Buff  [0].Number_Of_Jobs',256,0,18,1,0
+Watch10='CJob[0]',256,0,18,1,0
+Watch11='CJob[1]',256,0,18,1,0
+Watch12='CJob[3]',256,0,18,1,0
+Watch13='VehicleTime',256,0,18,1,0
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=1280
+Height=122
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1272
+ClientHeight=90
+
+[ProjectManager]
+Create=1
+Visible=0
+State=0
+Left=12
+Top=203
+Width=871
+Height=471
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=863
+ClientHeight=443
+TBDockHeight=371
+LRDockWidth=537
+Dockable=1
+
+[CPUWindow]
+Create=1
+Visible=0
+State=0
+Left=77
+Top=183
+Width=1203
+Height=353
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1195
+ClientHeight=321
+DumpPane=452
+DisassemblyPane=240
+RegisterPane=297
+FlagPane=82
+
+[ToDo List]
+Create=1
+Visible=0
+State=0
+Left=405
+Top=355
+Width=470
+Height=250
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=462
+ClientHeight=222
+TBDockHeight=250
+LRDockWidth=470
+Dockable=1
+Column0Width=200
+Column1Width=30
+Column2Width=100
+Column3Width=70
+Column4Width=70
+SortOrder=4
+ShowHints=1
+ShowChecked=1
+
+[WatchWindow]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=84
+Height=607
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=84
+ClientHeight=607
+TBDockHeight=202
+LRDockWidth=421
+Dockable=1
+
+[AlignmentPalette]
+Create=1
+Visible=0
+State=0
+Left=200
+Top=124
+Width=156
+Height=86
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=124
+Width=304
+Height=618
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=294
+ClientHeight=588
+TBDockHeight=618
+LRDockWidth=190
+Dockable=1
+SplitPos=142
+ArrangeBy=Name
+SelectedItem=Caption
+ExpandedItems=Anchors,ProviderFlags,Title
+HiddenCategories=Legacy
+ShowStatusBar=1
+
+[BreakpointWindow]
+Create=1
+Visible=0
+State=0
+Left=271
+Top=381
+Width=737
+Height=197
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=729
+ClientHeight=169
+TBDockHeight=197
+LRDockWidth=737
+Dockable=1
+Column0Width=123
+Column1Width=92
+Column2Width=374
+Column3Width=246
+Column4Width=92
+Column5Width=92
+
+[CodeguardLog]
+Create=1
+Visible=0
+State=0
+Left=191
+Top=108
+Width=448
+Height=190
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=440
+ClientHeight=162
+TBDockHeight=190
+LRDockWidth=448
+Dockable=1
+
+[ClassHierarchy@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=218
+Top=113
+Width=403
+Height=284
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=395
+ClientHeight=256
+TBDockHeight=284
+LRDockWidth=403
+Dockable=1
+TreeWidth=149
+Col1Width=148
+Col2Width=148
+
+[CodeExplorer@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=84
+Height=607
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=84
+ClientHeight=607
+TBDockHeight=388
+LRDockWidth=414
+Dockable=1
+ClassViewDisplayMode=0
+
+[MessageView@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=7
+Top=756
+Width=1279
+Height=153
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1271
+ClientHeight=125
+TBDockHeight=187
+LRDockWidth=443
+Dockable=0
+
+[DockHosts]
+DockHostCount=1
+
+[DockSite0]
+DockSiteType=1
+Create=1
+Visible=1
+State=0
+Left=0
+Top=12
+Width=92
+Height=638
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=92
+ClientHeight=638
+TBDockHeight=94
+LRDockWidth=92
+Dockable=1
+TabPosition=0
+ActiveTab=Watch List
+TabDockClients=CodeExplorer@EditWindow0,WatchWindow
+

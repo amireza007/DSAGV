@@ -1,0 +1,111 @@
+
+
+Trip Information:
+Vehicle	Trip Information
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+1	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	44	100		1	P	
+	Block 2	'0'	189	189		1	D	
+	W/P 1	'1'	253	340		3	P	
+	Block 2	'0'	429	429		3	D	
+	W/P 1	'1'	493	580		5	P	
+	Block 2	'0'	669	669		5	D	
+Total Dist=346  Total Wait=234  Total Late=0
+------------------------------------------------------------------------------------------------------
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+2	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	62	220		2	P	
+	Block 2	'0'	309	309		2	D	
+	W/P 1	'1'	373	460		4	P	
+	Block 2	'0'	549	549		4	D	
+Total Dist=213  Total Wait=247  Total Late=0
+------------------------------------------------------------------------------------------------------
+
+Trip Information:
+Vehicle	Trip Information
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+1	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	44	100		1	P	
+	Block 2	'0'	189	189		1	D	
+	W/P 1	'1'	253	340		3	P	
+	Block 2	'0'	429	429		3	D	
+	W/P 1	'1'	493	580		5	P	
+	Block 2	'0'	669	669		5	D	
+Total Dist=346  Total Wait=234  Total Late=0
+------------------------------------------------------------------------------------------------------
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+2	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	62	220		2	P	
+	Block 2	'0'	309	309		2	D	
+	W/P 1	'1'	373	460		4	P	
+	Block 2	'0'	549	549		4	D	
+Total Dist=213  Total Wait=247  Total Late=0
+------------------------------------------------------------------------------------------------------
+
+Trip Information:
+Vehicle	Trip Information
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+1	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	44	100		1	P	
+	Block 2	'0'	189	189		1	D	
+	W/P 1	'1'	253	340		3	P	
+	Block 2	'0'	429	429		3	D	
+	W/P 1	'1'	493	580		5	P	
+	Block 2	'0'	669	669		5	D	
+Total Dist=346  Total Wait=234  Total Late=0
+------------------------------------------------------------------------------------------------------
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+2	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	62	220		2	P	
+	Block 2	'0'	309	309		2	D	
+	W/P 1	'1'	373	460		4	P	
+	Block 2	'0'	549	549		4	D	
+Total Dist=213  Total Wait=247  Total Late=0
+------------------------------------------------------------------------------------------------------
+
+Trip Information:
+Vehicle	Trip Information
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+1	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	44	100		1	P	
+	Block 2	'0'	189	189		1	D	
+	W/P 1	'1'	253	340		3	P	
+	Block 2	'0'	429	429		3	D	
+	W/P 1	'1'	493	580		5	P	
+	Block 2	'0'	669	669		5	D	
+Total Dist=346  Total Wait=234  Total Late=0
+------------------------------------------------------------------------------------------------------
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+2	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	62	220		2	P	
+	Block 2	'0'	309	309		2	D	
+	W/P 1	'1'	373	460		4	P	
+	Block 2	'0'	549	549		4	D	
+Total Dist=213  Total Wait=247  Total Late=0
+------------------------------------------------------------------------------------------------------
+
+Trip Information:
+Vehicle	Trip Information
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+1	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	44	100		1	P	
+	Block 2	'0'	189	189		1	D	
+	W/P 1	'1'	253	340		3	P	
+	Block 2	'0'	429	429		3	D	
+	W/P 1	'1'	493	580		5	P	
+	Block 2	'0'	669	669		5	D	
+Total Dist=346  Total Wait=234  Total Late=0
+------------------------------------------------------------------------------------------------------
+Vehicle	Trip  	Load	Vehicle	Actual		Content	Action 	Content	Action 
+2	AtLoc 	    	Time   	 Time  		[0]	[0]	[1]	[1]
+	W/P 1	'1'	62	220		2	P	
+	Block 2	'0'	309	309		2	D	
+	W/P 1	'1'	373	460		4	P	
+	Block 2	'0'	549	549		4	D	
+Total Dist=213  Total Wait=247  Total Late=0
+------------------------------------------------------------------------------------------------------
+2
+
+1 
+2 
+3276.	 BestI=4

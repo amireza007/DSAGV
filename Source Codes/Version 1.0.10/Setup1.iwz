@@ -1,0 +1,449 @@
+
+[InstallShield Wizard]
+iDate=0
+iTime=0
+Flag=0
+ISX.EXE Size=679936
+ISX.EXE Date=11:21:52AM  4/8/1999
+ISX.EXE Ver=2.1.2.62
+SETUP.EXE Size=45312
+SETUP.EXE Date=9:12:24AM  3/23/1999
+SETUP.EXE Ver=3.0.111.0
+SETUP.INS Size=81342
+SETUP.INS Date=11:26:40AM  4/8/1999
+SETUP.INS Ver=Not available
+_INST16.EX_ Size=81342
+_INST16.EX_ Date=11:26:40AM  4/8/1999
+_INST16.EX_ Ver=Not available
+_INST32I.EX_ Size=294079
+_INST32I.EX_ Date=9:12:22AM  3/23/1999
+_INST32I.EX_ Ver=Not available
+ISDEPEND.INI Size=6857
+ISDEPEND.INI Date=1:24:36PM  12/27/1999
+ISDEPEND.INI Ver=Not available
+SWDEPEND.INI Size=9711
+SWDEPEND.INI Date=1:24:40PM  12/27/1999
+SWDEPEND.INI Ver=Not available
+ICOMP.EXE Size=119808
+ICOMP.EXE Date=9:12:24AM  3/23/1999
+ICOMP.EXE Ver=3.00.062
+SPLIT.EXE Size=90624
+SPLIT.EXE Date=9:12:24AM  3/23/1999
+SPLIT.EXE Ver=3.00.060
+PACKLIST.EXE Size=87552
+PACKLIST.EXE Date=9:12:24AM  3/23/1999
+PACKLIST.EXE Ver=3.00.060
+Version=2.12
+DevTool=Borland C++Builder 5
+Platform=Win32
+DisksBuilt=1
+DisksDir=Setup1\120MB\
+TabsVisit=11111111100001111
+LangNum=0
+LangDir=
+
+[VisualDesign]
+AppName=DSAGV
+AppExe=[Program Files]\PortApp1_0_10.exe
+AppExeFile=
+Version=1.0.15
+Company=RashidiTsang
+Title=Dynamic Scheduling of Automated Guided Vehicles
+TitleType=1
+BackgrndBmp=E:\Flash5\Version 1.0.10\Logo2.bmp
+BackgrndAlign=1
+Backgrnd=1
+BackgrndColor=10
+Uninstall=1
+UninstallChecked=1
+Silent=1
+SmsMode=0
+
+[Types]
+Types=1
+Type1Components=1
+Type1Name=Complete
+Type1ComponentList=1 
+
+[Components]
+Components=1
+Component1Groups=5
+Component1Name=Application Files
+Component1Description=Application files needed to run the application
+Component1GroupList=1 2 3 4 5 
+
+[Groups]
+Groups=5
+Group1Size=8036352
+Group1Files=1
+Group1Name=Program Files
+Group1Dir=<INSTALLDIR>
+Group1Update=0
+Group1TargetOS=-1
+Group1File1=E:\Flash5\Version 1.0.10\PortApp1_0_10.exe
+Group2Size=4968931
+Group2Files=13
+Group2Name=Tables
+Group2Dir=<INSTALLDIR>
+Group2Update=0
+Group2TargetOS=-1
+Group2File1=E:\Flash5\PortTable.DB
+Group2File2=E:\Flash5\AlgorithmTable.DB
+Group2File3=E:\Flash5\DoneSort.DB
+Group2File4=E:\Flash5\PortAGVTable.DB
+Group2File5=E:\Flash5\PortAGVTTable.DB
+Group2File6=E:\Flash5\PortContainerTable.DB
+Group2File7=E:\Flash5\PortDoneJobTable.DB
+Group2File8=E:\Flash5\PortLayoutTable.DB
+Group2File9=E:\Flash5\PortRouteTable.DB
+Group2File10=E:\Flash5\PortStatusJobTable.DB
+Group2File11=E:\Flash5\temp.out
+Group2File12=E:\Flash5\temp.inp
+Group2File13=E:\Flash5\DBDWORK.INI
+Group3Size=0
+Group3Files=0
+Group3Auto=101
+Group3ID=39001
+Group3Name=BDE/IDAPI Files
+Group3Dir=<ProgramFilesDir>\Common Files\Borland Shared\BDE
+Group3Update=-1
+Group3TargetOS=-1
+Group4Size=17254489
+Group4Files=85
+Group4Auto=98
+Group4ID=38998
+Group4Name=BDE/IDAPI CNF File
+Group4Dir=<ProgramFilesDir>\Common Files\Borland Shared\BDE
+Group4Update=-1
+Group4TargetOS=-1
+Group4File1=E:\Program Files\Common Files\Borland Shared\BDE\USA.BTL
+Group4File2=E:\Program Files\Common Files\Borland Shared\BDE\BANTAM.DLL
+Group4File3=E:\Program Files\Common Files\Borland Shared\BDE\bde32.cnt
+Group4File4=E:\Program Files\Common Files\Borland Shared\BDE\bde32.hlp
+Group4File5=E:\Program Files\Common Files\Borland Shared\BDE\bde32.toc
+Group4File6=E:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.CNT
+Group4File7=E:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.EXE
+Group4File8=E:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.HLP
+Group4File9=E:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.TOC
+Group4File10=E:\Program Files\Common Files\Borland Shared\BDE\bdedeploy.txt
+Group4File11=E:\Program Files\Common Files\Borland Shared\BDE\bdeinst.cab
+Group4File12=E:\Program Files\Common Files\Borland Shared\BDE\bdeinst.txt
+Group4File13=E:\Program Files\Common Files\Borland Shared\BDE\bdereadme.txt
+Group4File14=E:\Program Files\Common Files\Borland Shared\BDE\BLW32.DLL
+Group4File15=E:\Program Files\Common Files\Borland Shared\BDE\CEEUROPE.BTL
+Group4File16=E:\Program Files\Common Files\Borland Shared\BDE\CHARSET.CVB
+Group4File17=E:\Program Files\Common Files\Borland Shared\BDE\disp.dll
+Group4File18=E:\Program Files\Common Files\Borland Shared\BDE\disp.pak
+Group4File19=E:\Program Files\Common Files\Borland Shared\BDE\EUROPE.BTL
+Group4File20=E:\Program Files\Common Files\Borland Shared\BDE\FAREAST.BTL
+Group4File21=E:\Program Files\Common Files\Borland Shared\BDE\IDAPI32.DLL
+Group4File22=E:\Program Files\Common Files\Borland Shared\BDE\IDAPI.000
+Group4File23=E:\Program Files\Common Files\Borland Shared\BDE\IDAPI.BAK
+Group4File24=E:\Program Files\Common Files\Borland Shared\BDE\IDAPI.CFG
+Group4File25=E:\Program Files\Common Files\Borland Shared\BDE\IDASCI32.DLL
+Group4File26=E:\Program Files\Common Files\Borland Shared\BDE\IDBAT32.DLL
+Group4File27=E:\Program Files\Common Files\Borland Shared\BDE\IDDA3532.DLL
+Group4File28=E:\Program Files\Common Files\Borland Shared\BDE\IDDAO32.DLL
+Group4File29=E:\Program Files\Common Files\Borland Shared\BDE\IDDBAS32.DLL
+Group4File30=E:\Program Files\Common Files\Borland Shared\BDE\IDDR32.DLL
+Group4File31=E:\Program Files\Common Files\Borland Shared\BDE\IDODBC32.DLL
+Group4File32=E:\Program Files\Common Files\Borland Shared\BDE\IDPDX32.DLL
+Group4File33=E:\Program Files\Common Files\Borland Shared\BDE\IDQBE32.DLL
+Group4File34=E:\Program Files\Common Files\Borland Shared\BDE\IDR20009.DLL
+Group4File35=E:\Program Files\Common Files\Borland Shared\BDE\IDSQL32.DLL
+Group4File36=E:\Program Files\Common Files\Borland Shared\BDE\JAPAN.BTL
+Group4File37=E:\Program Files\Common Files\Borland Shared\BDE\localsql.cnt
+Group4File38=E:\Program Files\Common Files\Borland Shared\BDE\localsql.hlp
+Group4File39=E:\Program Files\Common Files\Borland Shared\BDE\localsql.toc
+Group4File40=E:\Program Files\Common Files\Borland Shared\BDE\OTHER.BTL
+Group4File41=E:\Program Files\Common Files\Borland Shared\BDE\sqlint32.dll
+Group4File42=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\unstub.exe
+Group4File43=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\_DEISREG.ISR
+Group4File44=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\_INST32I.EX_
+Group4File45=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\_ISDEL.EXE
+Group4File46=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\_ISREG16.DLL
+Group4File47=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\_isreg32.dll
+Group4File48=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\_ISRES32.DLL
+Group4File49=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\_ISUSR32.DLL
+Group4File50=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\_SETUP.DLL
+Group4File51=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\ABOUT16.BMP
+Group4File52=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\corecomp.ini
+Group4File53=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\DEFAULT2.IWZ
+Group4File54=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\DEFAULT.IWZ
+Group4File55=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\DeIsL1.isu
+Group4File56=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\dlgimage.bmp
+Group4File57=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\EULA 2000.txt
+Group4File58=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\EXTSTUB.EXE
+Group4File59=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\I32STUB.EXE
+Group4File60=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\ICOMP.EXE
+Group4File61=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\isdepend.ini
+Group4File62=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\Isx.exe
+Group4File63=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\LICENSE.TXT
+Group4File64=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\PACKLIST.EXE
+Group4File65=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\README.TXT
+Group4File66=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\Resdll.dll
+Group4File67=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\SETUP1.BMP
+Group4File68=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\SETUP.EXE
+Group4File69=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\Setup.ins
+Group4File70=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\splash216.bmp
+Group4File71=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\SPLASH.BMP
+Group4File72=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\SPLIT.EXE
+Group4File73=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\swdepend.ini
+Group4File74=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\UNINST.EXE
+Group4File75=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_SYB.CNF
+Group4File76=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\IDAPI.CNF
+Group4File77=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_DB2.CNF
+Group4File78=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_DBV5.CNF
+Group4File79=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_INF.CNF
+Group4File80=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_INF9.CNF
+Group4File81=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_INT.cnf
+Group4File82=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_MSS.CNF
+Group4File83=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_ORA.CNF
+Group4File84=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_ORA8.CNF
+Group4File85=E:\Program Files\InstallShield\InstallShield Express for C++Builder 5\redist\SQL_SSC.CNF
+Group5Size=84733259
+Group5Files=88
+Group5Auto=58
+Group5ID=38958
+Group5Name=System Files - WinSysDir
+Group5Dir=<WINSYSDIR>
+Group5Update=-1
+Group5TargetOS=-1
+Group5File1=E:\Program Files\Borland\CBuilder5\Lib\ws2_32.lib
+Group5File2=E:\Program Files\Borland\CBuilder5\Lib\bcb2kaxserver50.bpi
+Group5File3=E:\Program Files\Borland\CBuilder5\Lib\bcb2kaxserver50.lib
+Group5File4=E:\Program Files\Borland\CBuilder5\Lib\bcb97axserver50.bpi
+Group5File5=E:\Program Files\Borland\CBuilder5\Lib\bcb97axserver50.lib
+Group5File6=E:\Program Files\Borland\CBuilder5\Lib\bcbatl.lib
+Group5File7=E:\Program Files\Borland\CBuilder5\Lib\bcbie50.bpi
+Group5File8=E:\Program Files\Borland\CBuilder5\Lib\bcbie50.lib
+Group5File9=E:\Program Files\Borland\CBuilder5\Lib\bcbsmp50.bpi
+Group5File10=E:\Program Files\Borland\CBuilder5\Lib\bcbsmp50.lib
+Group5File11=E:\Program Files\Borland\CBuilder5\Lib\c0d32.obj
+Group5File12=E:\Program Files\Borland\CBuilder5\Lib\c0d32w.obj
+Group5File13=E:\Program Files\Borland\CBuilder5\Lib\c0d32x.obj
+Group5File14=E:\Program Files\Borland\CBuilder5\Lib\c0pkg32.obj
+Group5File15=E:\Program Files\Borland\CBuilder5\Lib\c0s32.obj
+Group5File16=E:\Program Files\Borland\CBuilder5\Lib\c0w32.obj
+Group5File17=E:\Program Files\Borland\CBuilder5\Lib\c0w32w.obj
+Group5File18=E:\Program Files\Borland\CBuilder5\Lib\c0x32.obj
+Group5File19=E:\Program Files\Borland\CBuilder5\Lib\c0x32w.obj
+Group5File20=E:\Program Files\Borland\CBuilder5\Lib\cg32.lib
+Group5File21=E:\Program Files\Borland\CBuilder5\Lib\cp32mt.lib
+Group5File22=E:\Program Files\Borland\CBuilder5\Lib\cp32mti.lib
+Group5File23=E:\Program Files\Borland\CBuilder5\Lib\cw32.lib
+Group5File24=E:\Program Files\Borland\CBuilder5\Lib\cw32i.lib
+Group5File25=E:\Program Files\Borland\CBuilder5\Lib\cw32mt.lib
+Group5File26=E:\Program Files\Borland\CBuilder5\Lib\cw32mti.lib
+Group5File27=E:\Program Files\Borland\CBuilder5\Lib\dbx50.bpi
+Group5File28=E:\Program Files\Borland\CBuilder5\Lib\dcl31w50.bpi
+Group5File29=E:\Program Files\Borland\CBuilder5\Lib\dclbde50.bpi
+Group5File30=E:\Program Files\Borland\CBuilder5\Lib\dcldb50.bpi
+Group5File31=E:\Program Files\Borland\CBuilder5\Lib\dclib50.bpi
+Group5File32=E:\Program Files\Borland\CBuilder5\Lib\dclisp50.bpi
+Group5File33=E:\Program Files\Borland\CBuilder5\Lib\dclisp50.lib
+Group5File34=E:\Program Files\Borland\CBuilder5\Lib\dclnet50.bpi
+Group5File35=E:\Program Files\Borland\CBuilder5\Lib\dclnmf50.bpi
+Group5File36=E:\Program Files\Borland\CBuilder5\Lib\dclocx50.bpi
+Group5File37=E:\Program Files\Borland\CBuilder5\Lib\dclocx50.lib
+Group5File38=E:\Program Files\Borland\CBuilder5\Lib\dclqrt50.bpi
+Group5File39=E:\Program Files\Borland\CBuilder5\Lib\dclstd50.bpi
+Group5File40=E:\Program Files\Borland\CBuilder5\Lib\dcltee50.bpi
+Group5File41=E:\Program Files\Borland\CBuilder5\Lib\dcltqr50.bpi
+Group5File42=E:\Program Files\Borland\CBuilder5\Lib\dclusr50.bpk
+Group5File43=E:\Program Files\Borland\CBuilder5\Lib\dclusr50.cpp
+Group5File44=E:\Program Files\Borland\CBuilder5\Lib\dclusr50.res
+Group5File45=E:\Program Files\Borland\CBuilder5\Lib\dsnide50.bpi
+Group5File46=E:\Program Files\Borland\CBuilder5\Lib\dxextra.lib
+Group5File47=E:\Program Files\Borland\CBuilder5\Lib\fileinfo.obj
+Group5File48=E:\Program Files\Borland\CBuilder5\Lib\gp.obj
+Group5File49=E:\Program Files\Borland\CBuilder5\Lib\ibevnt50.bpi
+Group5File50=E:\Program Files\Borland\CBuilder5\Lib\ibsmp50.bpi
+Group5File51=E:\Program Files\Borland\CBuilder5\Lib\ibsmp50.lib
+Group5File52=E:\Program Files\Borland\CBuilder5\Lib\import32.lib
+Group5File53=E:\Program Files\Borland\CBuilder5\Lib\inet.lib
+Group5File54=E:\Program Files\Borland\CBuilder5\Lib\memmgr.lib
+Group5File55=E:\Program Files\Borland\CBuilder5\Lib\noeh32.lib
+Group5File56=E:\Program Files\Borland\CBuilder5\Lib\ole2w32.lib
+Group5File57=E:\Program Files\Borland\CBuilder5\Lib\oleaut32.lib
+Group5File58=E:\Program Files\Borland\CBuilder5\Lib\qrpt50.bpi
+Group5File59=E:\Program Files\Borland\CBuilder5\Lib\qrpt50.lib
+Group5File60=E:\Program Files\Borland\CBuilder5\Lib\tee50.bpi
+Group5File61=E:\Program Files\Borland\CBuilder5\Lib\tee50.lib
+Group5File62=E:\Program Files\Borland\CBuilder5\Lib\teedb50.bpi
+Group5File63=E:\Program Files\Borland\CBuilder5\Lib\teedb50.lib
+Group5File64=E:\Program Files\Borland\CBuilder5\Lib\teeqr50.bpi
+Group5File65=E:\Program Files\Borland\CBuilder5\Lib\teeqr50.lib
+Group5File66=E:\Program Files\Borland\CBuilder5\Lib\teeui50.bpi
+Group5File67=E:\Program Files\Borland\CBuilder5\Lib\teeui50.lib
+Group5File68=E:\Program Files\Borland\CBuilder5\Lib\usebormm.lib
+Group5File69=E:\Program Files\Borland\CBuilder5\Lib\uuid.lib
+Group5File70=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#00
+Group5File71=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#0A
+Group5File72=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#0B
+Group5File73=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#0C
+Group5File74=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#01
+Group5File75=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#02
+Group5File76=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#03
+Group5File77=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#04
+Group5File78=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#05
+Group5File79=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#06
+Group5File80=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#07
+Group5File81=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#08
+Group5File82=E:\Program Files\Borland\CBuilder5\Lib\vcl50.#09
+Group5File83=E:\Program Files\Borland\CBuilder5\Lib\vcl50.csm
+Group5File84=E:\Program Files\Borland\CBuilder5\Lib\vcl.lib
+Group5File85=E:\Program Files\Borland\CBuilder5\Lib\vcljpg50.bpi
+Group5File86=E:\Program Files\Borland\CBuilder5\Lib\vcljpg50.lib
+Group5File87=E:\Program Files\Borland\CBuilder5\Lib\wildargs.obj
+Group5File88=E:\Program Files\Borland\CBuilder5\Lib\wininet.lib
+
+[Sequence]
+DestinationLocationDir=<ProgramFilesDir>\RashidiTsang\DSAGV
+DatabaseLocationDir=<INSTALLDIR>
+SelectProgramFolderName=DSAGV
+SplashScreen=1
+SplashScreenBmp=E:\Flash5\Version 1.0.10\controller.bmp
+WelcomeMessage=1
+WelcomeMessageFile=
+LicenseAgreement=1
+LicenseAgreementFile=E:\LICENSE.TXT
+UserInformation=1
+DestinationLocation=1
+DatabaseLocation=1
+SelectProgramFolder=1
+BeginFileTransfer=1
+ProgressBar=1
+SetupComplete=1
+SetupCompleteExec=[Program Files]\PortApp1_3.exe
+SetupCompleteExecParam=
+SetupCompleteExecReadme=
+
+[RegEntries]
+Reg1Path=HKEY_CLASSES_ROOT
+Reg1Val1Type=0
+Reg1Val1Name=(Default)
+Reg1Val1Data=1
+Reg1Val2Type=0
+Reg1Val2Name=
+Reg1Val2Data=1
+Reg1Vals=2
+Reg2Path=HKEY_CURRENT_USER
+Reg2Val1Type=0
+Reg2Val1Name=(Default)
+Reg2Val1Data=(value not set)
+Reg2Vals=1
+Reg3Path=HKEY_LOCAL_MACHINE
+Reg3Val1Type=0
+Reg3Val1Name=(Default)
+Reg3Val1Data=(value not set)
+Reg3Vals=1
+Reg4Path=HKEY_USERS
+Reg4Val1Type=0
+Reg4Val1Name=(Default)
+Reg4Val1Data=(value not set)
+Reg4Vals=1
+Reg5Path=HKEY_CURRENT_CONFIG
+Reg5Val1Type=0
+Reg5Val1Name=(Default)
+Reg5Val1Data=(value not set)
+Reg5Vals=1
+Reg6Path=HKEY_DYN_DATA
+Reg6Val1Type=0
+Reg6Val1Name=(Default)
+Reg6Val1Data=(value not set)
+Reg6Vals=1
+Regs=6
+
+[Registry]
+Reg1Path=HKEY_CLASSES_ROOT
+Reg1ValName=(Default)
+Reg1ValType=0
+Reg1ValData=1
+Regs=1
+
+[SQL Link Drivers]
+Driver1=Microsoft SQL Server Ent
+Driver2=Sybase (DB-Lib) Ent
+Driver3=Interbase Pro Ent
+Driver4=Oracle7 Ent
+Driver5=Oracle8 Ent
+Driver6=Informix7 Ent
+Driver7=Informix9 Ent
+Driver8=DB2 Ent
+Driver9=Sybase (CT-Lib) Ent
+Driver10=DB2 Version 5.0 Ent
+Driver11=SQL Links Help Ent
+Drivers=11
+DrvUsed=11111111111
+DrvHave=11
+
+[IDAPI Alias]
+Alias1=PortAppDataBase
+Alias1Path=<INSTALLDIR>
+Alias1Type=PARADOX
+Aliases=1
+SaveCfg=1
+
+[IDAPI Alias PortAppDataBase]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Autoexec]
+PathDir=
+ShareLocks=
+ShareFiles=
+Command=
+
+[CopyToFloppy]
+DriveOption=Path
+DestinationPath=E:\Software\New\
+DestinationPathOneFile=
+Password=
+
+[ISObjectIDs]
+nTotal=8
+ID1=101
+ID2=58
+ID3=102
+ID4=51
+ID5=55
+ID6=57
+ID7=56
+ID8=50
+
+[Uninstall]
+UserUninstall=0

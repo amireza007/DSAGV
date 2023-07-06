@@ -1,0 +1,15 @@
+This software is part of Autoport Scheduling Project by Constraint Satisfaction and Robotics Research Groups at University of Essex.
+ 
+
+This software is designed by H.Rashidi (Ph.D Student).
+It is available to use for only academic purposes.
+
+Commercial use requires a licence.
+Contact To:
+Professor Edward Tsang
+University of Essex, 
+Department of Computer Science, 
+Wivenhoe Park, 
+Colchester
+Essex
+CO4 3SQ  

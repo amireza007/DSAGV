@@ -1,0 +1,16 @@
+
+
+#ifndef _DBLA_H
+#define _DBLA_H
+
+
+#include "mcfdefs.h"
+#include "dbladef.h"
+
+
+extern MCF_node_p MCF_dual_iminus_cycle( MCF_DECLARE_DUAL_BLA_PARAMETERS );
+extern MCF_node_p MCF_dual_iminus_mpp_30_5( MCF_DECLARE_DUAL_BLA_PARAMETERS );
+extern MCF_node_p MCF_dual_iminus_mpp_50_10( MCF_DECLARE_DUAL_BLA_PARAMETERS );
+
+
+#endif

@@ -1,0 +1,126 @@
+#define  PRIMAL
+#define  MCF_LOWER_BOUNDS
+#define  MCF_DEBUG_3
+
+#include "mcf.h"
+#include "mcfutil.h"
+
+int Remove_Job_From_Graph( int removing_node,MCF_network_p net)
+{
+
+#if defined MCF_DEBUG_3
+    FILE *temp_out;
+
+    temp_out = fopen( "tmp.tmp", "w" );
+    fprintf(temp_out,"\n");
+    fclose(temp_out);
+#endif
+
+    register   long i,j;
+    MCF_arc_p  arc;
+    MCF_node_p node;
+    void      *stop;
+
+    MCF_arc_p  arcs2      ,arcs20      ;
+    MCF_arc_p  dummy_arcs2,dummy_arcs20;
+    MCF_node_p nodes2     ,nodes20     ;
+    /*
+        net.n = (long)t;
+        net.m = (long)h;
+
+        net.nodes      = (MCF_node_p) calloc( t+1, sizeof(MCF_node_t) );
+        net.arcs       = (MCF_arc_p)  calloc( h,   sizeof(MCF_arc_t) );
+        net.dummy_arcs = (MCF_arc_p)  calloc( t,   sizeof(MCF_arc_t) );
+
+        net.stop_nodes = net.nodes + (t+1); // one artificial node!
+        net.stop_arcs  = net.arcs + h;
+        net.stop_dummy = net.dummy_arcs + t;
+    */
+
+#if defined MCF_DEBUG_3
+    MCF_write_intermediate2(net);
+#endif
+
+    nodes2      = (MCF_node_p) calloc( net->n+1, sizeof(MCF_node_t) );
+    arcs2       = (MCF_arc_p ) calloc( net->m  , sizeof(MCF_arc_t ) );
+    dummy_arcs2 = (MCF_arc_p ) calloc( net->n  , sizeof(MCF_arc_t ) );
+
+    nodes20       = nodes2      ;
+    arcs20        = arcs2       ;
+    dummy_arcs20  = dummy_arcs2 ;
+
+    // Removing artificail arcs
+    i =0; int Number_Dummy_Arc = 0;
+    int Number_Of_Dummy_Arcs = net->n + 1;
+    node = net->nodes;
+    stop = net->stop_nodes;
+    for( arc = net->dummy_arcs; node < (MCF_node_p)stop; arc++, node++ )
+    {
+        if(arc->tail->number != removing_node      &&
+           arc->head->number != removing_node      &&
+           arc->tail->number != removing_node + 1  &&
+           arc->head->number != removing_node + 1  )
+        {
+           memcpy(dummy_arcs2, arc , sizeof(MCF_arc_p));
+           dummy_arcs2++;
+           Number_Dummy_Arc++;
+        } else
+            int j = 1;
+    }
+
+
+    // Removing the arcs
+    i = 0; int Number_Arcs = 0;
+    for( arc = net->arcs; arc < net->stop_arcs; arc++, i++ )
+    {
+        if(arc->tail->number != removing_node      &&
+           arc->head->number != removing_node      &&
+           arc->tail->number != removing_node + 1  &&
+           arc->head->number != removing_node + 1  )
+        {
+           memcpy(arcs2, arc , sizeof(MCF_arc_p));
+           arcs2++;
+           Number_Arcs++;
+        }else
+           j = 1;
+
+    }
+
+    Number_Of_Dummy_Arcs = net->n + 1;
+    // we have to considred that given node numbers start from zero (0) to n. the Zero for root or artifical node
+    stop = net->stop_nodes; i = 0;
+    for( node = net->nodes, node++; node < stop; node++, i++ )
+    {
+         if(node->number != removing_node    &&
+            node->number != removing_node + 1  )
+         {
+            // remove_node and its conjucate from the graph
+            memcpy(nodes2, node , sizeof(MCF_node_t));
+            nodes2++;
+         } else
+            j = 1;
+    }
+
+ //   net->n            -= 2;
+
+ //   free( net->nodes      );
+ //   net->nodes      = nodes20     ;
+
+      free( net->arcs );
+      net->arcs       = arcs20      ;
+      net->stop_arcs  = net->arcs + Number_Arcs;
+
+ //   free( net->dummy_arcs );
+ //   net->dummy_arcs = dummy_arcs20;
+
+//    net->stop_nodes = net->nodes + net->n;
+ //   net->stop_dummy = net->dummy_arcs + Number_Dummy_Arc ;
+
+#if defined MCF_DEBUG_3
+    MCF_write_intermediate2(net);
+    return (0);
+#endif
+
+    return 0;
+}
+

@@ -1,0 +1,185 @@
+#ifndef _MCF_H
+#define _MCF_H
+
+
+/**@name MCF interface. */
+/*@{*/
+
+
+#include "mcfdefs.h"
+
+extern  long MCF_write_intermediate2(MCF_network_p net);
+extern  long MCF_write_intermediate3(MCF_network_p net);
+extern  int Remove_Job_From_Graph( int removing_node,MCF_network_p net);
+
+/**@name Problem reading and writing. */
+/*@{*/
+//@Include: reading.dxx
+extern long MCF_read_dimacs_min( char *filename, MCF_network_p net );
+
+//@Include: writing.dxx
+extern long MCF_write_solution( char *infile, char *outfile,
+                               MCF_network_p net, time_t sec );
+/*@}*/
+
+
+
+/**@name Primal network simplex. */
+/*@{*/
+
+/**@name Slack basis. */
+/*@{*/
+//@Include: pstart.dxx
+extern long MCF_primal_start_artificial ( MCF_network_p net );
+extern long MCF_primal_repair_span_tree ( MCF_network_p net );
+
+/*@}*/
+
+/**@name Main iteration loop. */
+/*@{*/
+//@Include: psimplex.dxx
+extern long MCF_primal_net_simplex ( MCF_network_p net );
+/*@}*/
+
+//@Include: pprice.dxx
+/*@{*/
+//@Include: pbeampp.dxx
+/*@{*/
+extern MCF_arc_p MCF_primal_bea_mpp_30_5
+    ( MCF_arc_p max_cost_arc, int algorithm_opt, long m, MCF_arc_p arcs, MCF_arc_p stop_arcs, MCF_cost_p red_cost_of_bea );
+
+extern MCF_arc_p MCF_primal_bea_mpp_50_10
+    ( MCF_arc_p max_cost_arc,int algorithm_opt,long m, MCF_arc_p arcs, MCF_arc_p stop_arcs, MCF_cost_p red_cost_of_bea );
+
+extern MCF_arc_p MCF_primal_bea_mpp_200_20
+    ( MCF_arc_p max_cost_arc,int algorithm_opt,long m, MCF_arc_p arcs, MCF_arc_p stop_arcs, MCF_cost_p red_cost_of_bea );
+
+extern MCF_arc_p MCF_primal_bea_mpp_200_25
+    ( MCF_arc_p max_cost_arc,int algorithm_opt,long m, MCF_arc_p arcs, MCF_arc_p stop_arcs, MCF_cost_p red_cost_of_bea );
+/*@}*/
+
+/**@name First eligible arc rule. */
+/*@{*/
+/** First eligible arc pricing.
+ * Searches for the basis entering arc in a wraparound fashion.
+ */
+extern MCF_arc_p MCF_primal_bea_cycle
+    ( MCF_arc_p max_cost_arc,int algorithm_opt,long m, MCF_arc_p arcs, MCF_arc_p stop_arcs, MCF_cost_p red_cost_of_bea );
+/*@}*/
+
+/**@name Dantzig's rule. */
+/*@{*/
+/** Dantzig's rule.
+ * Determins the arc violating the optimality condition at most.
+ */
+extern MCF_arc_p MCF_primal_bea_all
+    ( MCF_arc_p max_cost_arc,int algorithm_opt,long m, MCF_arc_p arcs, MCF_arc_p stop_arcs, MCF_cost_p red_cost_of_bea );
+
+/*@}*/
+/*@}*/
+/*@}*/
+
+
+
+/**@name Dual network simplex. */
+/*@{*/
+
+/**@name Start basis. */
+/*@{*/
+//@Include: dstart.dxx
+extern long MCF_dual_start_artificial ( MCF_network_p net );
+/*@}*/
+
+/**@name Main iteration loop. */
+/*@{*/
+//@Include: dsimplex.dxx
+extern long MCF_dual_net_simplex ( MCF_network_p net );
+/*@}*/
+
+//@Include: dprice.dxx
+/*@{*/
+/**@name Multiple partial pricing */
+/*@{*/
+/** K = 30, B = 5. */
+extern MCF_node_p MCF_dual_iminus_mpp_30_5
+          ( long n, MCF_node_p nodes, MCF_node_p stop_nodes, MCF_flow_p delta );
+
+/** K = 50, B = 10. */
+extern MCF_node_p MCF_dual_iminus_mpp_50_10
+          ( long n, MCF_node_p nodes, MCF_node_p stop_nodes, MCF_flow_p delta );
+/*@}*/
+
+/**@name First eligible arc rule. */
+/*@{*/
+/** First eligible arc pricing.
+ * Searches for the basis leaving arc in a wraparound fashion.
+ */
+extern MCF_node_p MCF_dual_iminus_cycle
+          ( long n, MCF_node_p nodes, MCF_node_p stop_nodes, MCF_flow_p delta );
+/*@}*/
+/*@}*/
+/*@}*/
+
+
+
+/**@name MCF utilities. */
+/*@{*/
+/** Frees malloced data structures.
+ *
+ * @param  net  reference to network data structure.
+ */
+//extern long MCF_free ( MCF_network_p net );
+
+/** Primal objective $c^\trans\,x$.
+ *
+ * @param  net  reference to network data structure.
+ */
+extern double MCF_primal_obj   ( MCF_network_p net );
+
+/** Dual objective $\pi^\trans b + \lambda^\trans l - \eta^\trans u$.
+ *
+ * @param  net  reference to network data structure.
+ */
+extern double MCF_dual_obj ( MCF_network_p net );
+
+/** Primal basis checking.
+ *
+ * Checks whether a given basis is primal feasible.
+ *
+ * @param  net  reference to network data structure.
+ * @return value <> 0 indicates primal infeasible basis.
+ */
+extern long MCF_primal_feasible ( MCF_network_p net );
+
+/** Dual basis checking.
+ *
+ * Checks whether a given basis is dual feasible.
+ *
+ * @param  net  reference to network data structure.
+ * @return value <> 0 indicates dual infeasible basis.
+ */
+extern long MCF_dual_feasible ( MCF_network_p net );
+
+/** Basis checking.
+ *
+ * Checks whether the given basis structure is a spanning tree.
+ *
+ * @param  net  reference to network data structure.
+ * @return value <> 0 indicates infeasible spanning tree.
+ */
+extern long MCF_is_basis ( MCF_network_p net );
+
+/** Flow vector checking.
+ *
+ * Checks whether a given basis solution defines a balanced flow on each node.
+ *
+ * @param  net  reference to network data structure.
+ * @return value <> 0 indicates unbalanced flow vector.
+ */
+extern long MCF_is_balanced ( MCF_network_p net );
+/*@}*/
+/*@}*/
+
+#endif
+
+

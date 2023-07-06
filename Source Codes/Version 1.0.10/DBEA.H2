@@ -1,0 +1,15 @@
+
+
+#ifndef _DBEA_H
+#define _DBEA_H
+
+
+#include "mcfdefs.h"
+
+
+extern MCF_arc_p MCF_dual_bea( MCF_network_p net, MCF_node_p iminus,
+                               long *xchange, long *cycle_ori,
+                               MCF_cost_p red_cost_of_bea, MCF_flow_t delta );
+
+
+#endif

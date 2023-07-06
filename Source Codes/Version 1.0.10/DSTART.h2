@@ -1,0 +1,14 @@
+
+#ifndef _DSTART_H
+#define _DSTART_H
+
+
+#include "mcfdefs.h"
+#include "mcfutil.h"
+#include "psimplex.h"
+
+
+extern long MCF_dual_start_artificial( MCF_network_p net );
+
+
+#endif

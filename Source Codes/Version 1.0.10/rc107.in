@@ -1,0 +1,22 @@
+
+Number of Vehicles:
+2
+Vehicle Information:
+AGV	Capacity	Start
+No			Loc
+--------------------------------------------------------------
+0	2		94
+1	2		17
+
+Number of Jobs:
+6
+Container Jobs Information:
+Job	Demand	Appointment	Source	Dest	Source	Dest	UseConstarint
+No	Amount	Time		Loc	Loc	Done	Done	Time
+-------------------------------------------------------------------------------
+1	1	0		34	68	0	0	1
+2	1	120		98	7	0	0	2
+3	1	240		17	53	0	0	1
+4	1	360		64	16	0	0	2
+5	1	480		28	54	0	0	1
+6	1	600		29	63	0	0	1

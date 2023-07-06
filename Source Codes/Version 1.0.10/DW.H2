@@ -1,0 +1,13 @@
+
+
+#ifndef _DW_H
+#define _DW_H
+
+
+#include "mcfdefs.h"
+
+
+extern MCF_node_p MCF_dual_w( MCF_node_p, MCF_node_p );
+
+
+#endif
