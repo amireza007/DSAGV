@@ -1,0 +1,17 @@
+c OS time:	 17:12:22  
+c Output to Minimum Cost Flow (MCF) Problem.
+c The problem has been solved by Network Simplex Algorithm (NSA). 
+c
+c It needed 8 Iteration(s) in 0 Second(s).
+s Optimal Objective Function is 47940
+c Flow       From         To         Amount 
+c------------------------------------------ 
+f            1             4            1
+f            2             6            1
+f            3             8            1
+f            4             5            1
+f            6             7            1
+f            5             8            1
+f            7             8            1
+c
+c All other variables are zero
