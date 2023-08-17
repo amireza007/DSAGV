@@ -1,8 +1,0 @@
-p min 8     15                       
-c Create supply nodes  
-c Create demand node 
-c Create arcs from any AGV node to any container node, if it is compatible
-c Create arcs from AGV Nodes to the Sink node 
-c Create arcs from any c node to c' container node
-c Create arcs from c' node to sink node 
-c Create arcs from any c' node to any other c node
