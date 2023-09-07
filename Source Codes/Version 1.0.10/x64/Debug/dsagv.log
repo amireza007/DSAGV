@@ -1,0 +1,307 @@
+﻿  about.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\about.cpp(2,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  Dijkstra.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dijkstra.cpp(7,10): fatal  error C1083: Cannot open include file: 'alloc.h': No such file or directory
+  Dummy.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(1,9): error C2059: syntax error: 'if'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(2,9): error C2143: syntax error: missing ';' before '{'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(2,9): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(6,11): error C2059: syntax error: 'else'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(7,9): error C2143: syntax error: missing ';' before '{'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(7,9): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(13,13): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(13,19): error C3613: missing return type after '->' ('int' assumed)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(13,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(13,19): error C2146: syntax error: missing ';' before identifier 'right_sibling'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(16,9): error C2059: syntax error: 'if'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(18,9): error C2059: syntax error: 'else'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(21,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(21,9): error C2086: 'int temp': redefinition
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(13,13): message : see declaration of 'temp'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(21,16): error C2065: 'father': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(22,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(23,5): error C2059: syntax error: '}'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(23,5): error C2143: syntax error: missing ';' before '}'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(28,5): error C2143: syntax error: missing ';' before '{'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(28,5): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,6): error C2059: syntax error: 'for'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,6): error C2143: syntax error: missing ')' before ';'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,35): error C2143: syntax error: missing ';' before '<='
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,35): error C2059: syntax error: '<='
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,58): error C2143: syntax error: missing ';' before '++'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,49): error C2086: 'int RecTable3': redefinition
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,26): message : see declaration of 'RecTable3'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,58): error C2059: syntax error: '++'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(61,60): error C2059: syntax error: ')'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(62,6): error C2143: syntax error: missing ';' before '{'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(62,6): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(119,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(119,46): error C2065: 'Edit1': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(119,37): error C3861: 'StrToInt': identifier not found
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(119,68): error C2065: 'Edit6': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(119,59): error C3861: 'StrToInt': identifier not found
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(120,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(120,31): error C2065: 'Number_Of_AGVs': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(122,31): error C2065: 'Number_Of_AGVs': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(125,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(125,28): error C2065: 'Number_Of_AGVs': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(129,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(130,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(133,13): error C2059: syntax error: 'if'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(134,13): error C2143: syntax error: missing ';' before '{'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(134,13): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(137,14): error C2059: syntax error: 'else'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(142,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(143,32): error C2065: 'net': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(144,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(144,12): error C2065: 'net': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,5): error C2059: syntax error: 'for'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,5): error C2143: syntax error: missing ')' before ';'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,38): error C2143: syntax error: missing ';' before '<'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,38): error C2059: syntax error: '<'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,61): error C2143: syntax error: missing ';' before '++'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,61): error C2059: syntax error: '++'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,72): error C2059: syntax error: ')'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(146,5): error C2143: syntax error: missing ';' before '{'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(146,5): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(164,5): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(164,10): error C3613: missing return type after '->' ('int' assumed)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(164,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(164,10): error C2146: syntax error: missing ';' before identifier 'dummy_arcs'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(168,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(168,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(168,12): error C2374: 'j': redefinition; multiple initialization
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(142,11): message : see declaration of 'j'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,5): error C2059: syntax error: 'for'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,5): error C2143: syntax error: missing ')' before ';'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,31): error C2143: syntax error: missing ';' before '<'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,27): error C2086: 'int arc': redefinition
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,58): message : see declaration of 'arc'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,31): error C2059: syntax error: '<'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,52): error C2143: syntax error: missing ';' before '++'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,49): error C2086: 'int arc': redefinition
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,58): message : see declaration of 'arc'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,52): error C2059: syntax error: '++'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(169,60): error C2059: syntax error: ')'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(170,5): error C2143: syntax error: missing ';' before '{'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(170,5): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(186,5): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(186,10): error C3613: missing return type after '->' ('int' assumed)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(186,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(186,5): error C2086: 'int net': redefinition
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(164,5): message : see declaration of 'net'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(186,10): error C2146: syntax error: missing ';' before identifier 'm'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(187,5): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(187,10): error C3613: missing return type after '->' ('int' assumed)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(187,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(187,5): error C2086: 'int net': redefinition
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(164,5): message : see declaration of 'net'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(187,10): error C2146: syntax error: missing ';' before identifier 'stop_arcs'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(193,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(193,5): error C2374: 'Number_Of_Dummy_Arcs': redefinition; multiple initialization
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(143,9): message : see declaration of 'Number_Of_Dummy_Arcs'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(195,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(195,5): error C2374: 'stop': redefinition; multiple initialization
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(144,5): message : see declaration of 'stop'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(195,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(195,29): error C2374: 'i': redefinition; multiple initialization
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(168,5): message : see declaration of 'i'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,5): error C2059: syntax error: 'for'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,5): error C2143: syntax error: missing ')' before ';'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,42): error C2143: syntax error: missing ';' before '<'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,37): error C2086: 'int node': redefinition
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,33): message : see declaration of 'node'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,42): error C2059: syntax error: '<'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,54): error C2143: syntax error: missing ';' before '++'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,50): error C2086: 'int node': redefinition
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(145,33): message : see declaration of 'node'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,54): error C2059: syntax error: '++'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(196,62): error C2059: syntax error: ')'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(197,5): error C2143: syntax error: missing ';' before '{'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(197,5): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(221,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(221,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(221,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(221,24): error C2065: 'FileName': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(221,18): error C3861: 'fopen': identifier not found
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(222,6): error C2059: syntax error: 'while'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(223,6): error C2143: syntax error: missing ';' before '{'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(223,6): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(252,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(252,12): error C2440: 'initializing': cannot convert from 'int *' to 'int'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(252,12): message : There is no context in which this conversion is possible
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(255,50): error C2061: syntax error: identifier 'TObject'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(259,6): error C2065: 'TLocateOptions': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(259,21): error C2146: syntax error: missing ';' before identifier 'Opts'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(259,21): error C2065: 'Opts': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(260,6): error C2065: 'Variant': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(260,14): error C2146: syntax error: missing ';' before identifier 'locvalues'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(260,14): error C2065: 'locvalues': undeclared identifier
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Dummy.cpp(260,24): fatal  error C1003: error count exceeds 100; stopping compilation
+  HCDVRP.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\HCDVRP.cpp(1,11): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  Main.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Main.h(5,10): fatal  error C1083: Cannot open include file: 'sysutils.hpp': No such file or directory
+  Main1_0_5.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Main1_0_5.cpp(2,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  MCFLIGHT1_0_6.Cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFLIGHT1_0_6.Cpp(111,47): warning C4244: 'argument': conversion from 'double' to 'time_t', possible loss of data
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFLIGHT1_0_6.Cpp(25,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFLIGHT1_0_6.Cpp(26,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFLIGHT1_0_6.Cpp(64,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFLIGHT1_0_6.Cpp(72,8): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putch. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFLIGHT1_0_6.Cpp(22,20): warning C4101: 'Max_Cost': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFLIGHT1_0_6.Cpp(17,12): warning C4101: 'start_cpu_time': unreferenced local variable
+  MCFModel.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFModel.cpp(5,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  MCFModel1_2.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFModel1_2.cpp(5,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  MCFModel1_3.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Main1_0_5.h(5,10): fatal  error C1083: Cannot open include file: 'sysutils.hpp': No such file or directory
+  MCFModel2.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFModel2.cpp(5,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  MCFTEST1.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\MCFTEST1.cpp(2,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  Mcfutil.cpp
+  OpenPort.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OpenPort.h(6,10): fatal  error C1083: Cannot open include file: 'Classes.hpp': No such file or directory
+  OUTPUT.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(39,69): warning C4474: 'fprintf' : too many arguments passed for format string
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(39,69): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(57,23): warning C4477: 'fprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'time_t'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(57,23): message : consider using '%lld' in the format string
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(57,23): message : consider using '%Id' in the format string
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(57,23): message : consider using '%I64d' in the format string
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(31,20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(34,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(37,5): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(124,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(166,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(95,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(212,53): warning C4474: 'fprintf' : too many arguments passed for format string
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(212,53): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(232,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(267,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(207,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(316,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(307,15): warning C4101: 'arc': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(309,22): warning C4101: 'root': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(312,12): warning C4101: 'stop': unreferenced local variable
+  PBEAMPP1.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PBEAMPP1.cpp(3,11): fatal  error C1083: Cannot open include file: 'iomanip.h': No such file or directory
+  PBEAMPP2.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PBEAMPP2.cpp(3,11): fatal  error C1083: Cannot open include file: 'iomanip.h': No such file or directory
+  PBEAMPP3.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PBEAMPP3.cpp(3,11): fatal  error C1083: Cannot open include file: 'iomanip.h': No such file or directory
+  PBEAMPP4.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PBEAMPP4.cpp(3,11): fatal  error C1083: Cannot open include file: 'iomanip.h': No such file or directory
+  PBLA1_3.cpp
+  Generating Code...
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\OUTPUT.cpp(212): warning C4700: uninitialized local variable 'node' used
+  Compiling...
+  PFLOWUP.cpp
+  PortAbout.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortAbout.h(6,10): fatal  error C1083: Cannot open include file: 'Classes.hpp': No such file or directory
+  PortAGV.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortAGV.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortAgvs.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortAgvs.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortApp1.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1_0_10.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortApp1_0_10.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1_0_5.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortApp1_0_5.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1_0_6.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortApp1_0_6.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1_0_7.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortApp1_0_7.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1_0_8.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortApp1_0_8.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1_0_9.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortApp1_0_9.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1_1.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortApp1_1.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1_2.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortApp1_2.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortApp1_3.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Splash.h(6,10): fatal  error C1083: Cannot open include file: 'Classes.hpp': No such file or directory
+  PortBenchmark.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortBenchmark.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortContainer.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortContainer.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PortLayout.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PortLayout.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  PREPAIR.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(37,16): warning C4101: 'subtreesize_temp': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(32,16): warning C4101: 'new_basic_arc': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(40,16): warning C4101: 'flow_temp': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(23,16): warning C4101: 'iplus': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(22,16): warning C4101: 'new_flow': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(31,16): warning C4101: 'basic_arc_temp': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(16,17): warning C4101: 'tmp': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(38,16): warning C4101: 'subtreesize_iminus': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(24,16): warning C4101: 'jplus': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(20,16): warning C4101: 'new_orientation': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(26,16): warning C4101: 'jminus': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(21,16): warning C4101: 'delta': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(19,16): warning C4101: 'cycle_ori': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(11,17): warning C4101: 'node': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(35,16): warning C4101: 'new_pred': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(17,17): warning C4101: 'potential_from_root': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(36,16): warning C4101: 'orientation_temp': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(28,16): warning C4101: 'bea': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(25,16): warning C4101: 'iminus': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(13,17): warning C4101: 'arc': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(29,16): warning C4101: 'sigma': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(15,17): warning C4101: 'lower': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(33,23): warning C4101: 'child': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(15,24): warning C4101: 'upper': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(14,17): warning C4101: 'stop': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(39,16): warning C4101: 'new_subtreesize': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(145,18): warning C4101: 'tmp': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(144,18): warning C4101: 'lower': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(144,25): warning C4101: 'upper': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(143,18): warning C4101: 'stop': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(204,17): warning C4101: 'tmp': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(205,17): warning C4101: 'potential_from_root': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(201,17): warning C4101: 'arc': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(203,17): warning C4101: 'lower': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(200,23): warning C4101: 'root': unreferenced local variable
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PREPAIR.cpp(203,24): warning C4101: 'upper': unreferenced local variable
+  PSIMPLEX1_3.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PSIMPLEX1_3.cpp(106,25): warning C4311: 'type cast': pointer truncation from 'MCF_arc_p' to 'long'
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\PSIMPLEX1_3.cpp(106,25): warning C4302: 'type cast': truncation from 'MCF_arc_p' to 'long'
+  PSTART.cpp
+  Generating Code...
+  Compiling...
+  READMIN.Cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(42,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(44,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(52,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(62,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(97,17): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(100,17): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(108,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(137,21): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(157,25): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(185,25): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(199,17): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(247,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\READMIN.Cpp(266,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RNAA.Cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\RNAA.Cpp(14,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Splash.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Splash.h(6,10): fatal  error C1083: Cannot open include file: 'Classes.hpp': No such file or directory
+  TREEUP.cpp
+  Unit1.cpp
+C:\Users\Amirreza\projects\DSAGV\Source Codes\Version 1.0.10\Unit1.cpp(3,10): fatal  error C1083: Cannot open include file: 'vcl.h': No such file or directory
+  Generating Code...

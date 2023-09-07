@@ -27,7 +27,9 @@ void __fastcall TOpenPortForm::Button1Click(TObject *Sender)
 void __fastcall TOpenPortForm::Table2BeforeDelete(TDataSet *DataSet)
 {
 
-       Set  <TLocateOption,0,1> flags;
+       Set  <TLocateOption,0,1> flags;  //TLocateOptions defines the values for the Options parameter of the Locate method of a dataset.
+
+
        flags << loCaseInsensitive << loPartialKey;
 
        Variant locvalues[2];

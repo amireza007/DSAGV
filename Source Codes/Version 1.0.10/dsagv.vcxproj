@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{8A3348FC-78C1-4B29-81CC-046C63DC9AF5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="about.cpp" />
+    <ClCompile Include="Dijkstra.c" />
+    <ClCompile Include="Dijkstra.cpp" />
+    <ClCompile Include="Dummy.cpp" />
+    <ClCompile Include="File1.c" />
+    <ClCompile Include="HCDVRP.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Main1_0_5.cpp" />
+    <ClCompile Include="MCFLIGHT1_0_6.Cpp" />
+    <ClCompile Include="MCFModel.cpp" />
+    <ClCompile Include="MCFModel1_2.cpp" />
+    <ClCompile Include="MCFModel1_3.cpp" />
+    <ClCompile Include="MCFModel2.cpp" />
+    <ClCompile Include="MCFTEST1.cpp" />
+    <ClCompile Include="Mcfutil.cpp" />
+    <ClCompile Include="OpenPort.cpp" />
+    <ClCompile Include="OUTPUT.cpp" />
+    <ClCompile Include="PBEAMPP1.cpp" />
+    <ClCompile Include="PBEAMPP2.cpp" />
+    <ClCompile Include="PBEAMPP3.cpp" />
+    <ClCompile Include="PBEAMPP4.cpp" />
+    <ClCompile Include="PBLA1_3.cpp" />
+    <ClCompile Include="PFLOWUP.cpp" />
+    <ClCompile Include="PortAbout.cpp" />
+    <ClCompile Include="PortAGV.cpp" />
+    <ClCompile Include="PortAgvs.cpp" />
+    <ClCompile Include="PortApp1.cpp" />
+    <ClCompile Include="PortApp1_0_10.cpp" />
+    <ClCompile Include="PortApp1_0_5.cpp" />
+    <ClCompile Include="PortApp1_0_6.cpp" />
+    <ClCompile Include="PortApp1_0_7.cpp" />
+    <ClCompile Include="PortApp1_0_8.cpp" />
+    <ClCompile Include="PortApp1_0_9.cpp" />
+    <ClCompile Include="PortApp1_1.cpp" />
+    <ClCompile Include="PortApp1_2.cpp" />
+    <ClCompile Include="PortApp1_3.cpp" />
+    <ClCompile Include="PortBenchmark.cpp" />
+    <ClCompile Include="PortContainer.cpp" />
+    <ClCompile Include="PortLayout.cpp" />
+    <ClCompile Include="PREPAIR.cpp" />
+    <ClCompile Include="PSIMPLEX1_3.cpp" />
+    <ClCompile Include="PSTART.cpp" />
+    <ClCompile Include="READMIN.Cpp" />
+    <ClCompile Include="RNAA.Cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="TREEUP.cpp" />
+    <ClCompile Include="Unit1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="about.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Dijkstra.h" />
+    <ClInclude Include="DSIMPLEX.H" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Global_ext.h" />
+    <ClInclude Include="HPDPTW_2.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Main1_0_5.h" />
+    <ClInclude Include="mcf.h" />
+    <ClInclude Include="mcfdefs.h" />
+    <ClInclude Include="MCFModel.h" />
+    <ClInclude Include="MCFModel1_2.h" />
+    <ClInclude Include="MCFModel1_3.h" />
+    <ClInclude Include="MCFModel2.h" />
+    <ClInclude Include="MCFTEST1.h" />
+    <ClInclude Include="Mcfutil.h" />
+    <ClInclude Include="MCF_Unit1.h" />
+    <ClInclude Include="OpenPort.h" />
+    <ClInclude Include="OUTPUT.h" />
+    <ClInclude Include="pbea.h" />
+    <ClInclude Include="PBEADEF.H" />
+    <ClInclude Include="PBLA.h" />
+    <ClInclude Include="pflowup.h" />
+    <ClInclude Include="PortAbout.h" />
+    <ClInclude Include="PortAGV.h" />
+    <ClInclude Include="PortAgvs.h" />
+    <ClInclude Include="PortBenchmark.h" />
+    <ClInclude Include="PortContainer.h" />
+    <ClInclude Include="PortLayout.h" />
+    <ClInclude Include="PREPAIR.h" />
+    <ClInclude Include="PSIMPLEX.h" />
+    <ClInclude Include="PSTART.h" />
+    <ClInclude Include="READMIN.h" />
+    <ClInclude Include="sdimain.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="TREEUP.h" />
+    <ClInclude Include="Unit1.h" />
+    <ClInclude Include="utilcls.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_HELP_instructions.html" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

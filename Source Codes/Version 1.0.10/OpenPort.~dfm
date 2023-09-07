@@ -1,29 +1,29 @@
 object OpenPortForm: TOpenPortForm
   Left = -4
   Top = -4
-  Width = 1288
+  Width = 1182
   Height = 935
   BorderIcons = []
   Caption = 'Open Port'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -13
+  Font.Height = -10
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
   WindowState = wsMaximized
-  PixelsPerInch = 120
-  TextHeight = 16
+  PixelsPerInch = 96
+  TextHeight = 13
   object DBGrid1: TDBGrid
-    Left = 105
-    Top = 108
-    Width = 1009
-    Height = 553
+    Left = 85
+    Top = 88
+    Width = 820
+    Height = 449
     DataSource = DataSource1
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -17
+    Font.Height = -15
     Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold]
     ParentFont = False
@@ -98,20 +98,20 @@ object OpenPortForm: TOpenPortForm
       end>
   end
   object DBNavigator1: TDBNavigator
-    Left = 369
-    Top = 71
-    Width = 240
-    Height = 25
+    Left = 300
+    Top = 58
+    Width = 200
+    Height = 20
     DataSource = DataSource1
     ParentShowHint = False
     ShowHint = True
     TabOrder = 1
   end
   object Button1: TButton
-    Left = 556
-    Top = 721
-    Width = 75
-    Height = 25
+    Left = 452
+    Top = 586
+    Width = 61
+    Height = 20
     Caption = 'Close'
     TabOrder = 2
     OnClick = Button1Click
